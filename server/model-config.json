@@ -47,5 +47,13 @@
   "Phone": {
     "dataSource": "db",
     "public": true
+  },
+  "Pet": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Race": {
+    "dataSource": "db",
+    "public": true
   }
 }

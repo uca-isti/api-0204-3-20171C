@@ -1,0 +1,47 @@
+{
+  "name": "Pet",
+  "plural": "pets",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idPet": {
+      "type": "number",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "idPetType": {
+      "type": "number",
+      "required": true
+    },
+    "picture": {
+      "type": "string",
+      "required": true
+    },
+    "idUser": {
+      "type": "number",
+      "required": true
+    },
+    "weigth": {
+      "type": "number",
+      "required": true
+    },
+    "age": {
+      "type": "number",
+      "required": true
+    },
+    "idRace": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
