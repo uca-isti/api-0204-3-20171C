@@ -1,0 +1,27 @@
+{
+  "name": "Place",
+  "plural": "places",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "idPlace": {
+      "type": "number",
+      "required": true
+    },
+    "idPlacetype": {
+      "type": "number",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
