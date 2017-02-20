@@ -7,11 +7,8 @@
     "validateUpsert": true
   },
   "properties": {
-    "idPlace": {
-      "type": "number",
-      "required": true
-    },
-    "idPlacetype": {
+
+    "placetype_id": {
       "type": "number",
       "required": true
     },

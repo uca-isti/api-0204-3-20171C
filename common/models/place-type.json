@@ -7,10 +7,7 @@
     "validateUpsert": true
   },
   "properties": {
-    "idPlaceType": {
-      "type": "number",
-      "required": true
-    },
+    
     "typeName": {
       "type": "string",
       "required": true

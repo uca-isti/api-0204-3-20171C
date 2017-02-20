@@ -7,11 +7,7 @@
     "validateUpsert": true
   },
   "properties": {
-    "idBranch": {
-      "type": "number",
-      "required": true
-    },
-    "idPlace": {
+    "place_id": {
       "type": "number",
       "required": true
     },

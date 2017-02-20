@@ -7,15 +7,12 @@
     "validateUpsert": true
   },
   "properties": {
-    "idPet": {
-      "type": "number",
-      "required": true
-    },
+
     "name": {
       "type": "string",
       "required": true
     },
-    "idPetType": {
+    "pettype_id": {
       "type": "number",
       "required": true
     },
@@ -23,7 +20,7 @@
       "type": "string",
       "required": true
     },
-    "idUser": {
+    "user_id": {
       "type": "number",
       "required": true
     },
@@ -35,7 +32,7 @@
       "type": "number",
       "required": true
     },
-    "idRace": {
+    "race_id": {
       "type": "number",
       "required": true
     }
