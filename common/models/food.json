@@ -1,18 +1,26 @@
 {
-  "name": "Place",
-  "plural": "places",
+  "name": "Food",
+  "plural": "foods",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "placetype_id": {
-      "type": "number",
+    "foodname": {
+      "type": "string",
       "required": true
     },
-    "name": {
+    "description": {
       "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "petTypes_id": {
+      "type": "number",
       "required": true
     }
   },

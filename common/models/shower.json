@@ -1,18 +1,22 @@
 {
-  "name": "Place",
-  "plural": "places",
+  "name": "Shower",
+  "plural": "showers",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "placetype_id": {
+    "intervalInDays": {
       "type": "number",
       "required": true
     },
-    "name": {
+    "description": {
       "type": "string",
+      "required": true
+    },
+    "petTypes_id": {
+      "type": "number",
       "required": true
     }
   },

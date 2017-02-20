@@ -1,18 +1,30 @@
 {
-  "name": "Place",
-  "plural": "places",
+  "name": "Vaccine",
+  "plural": "vaccines",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "placetype_id": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "dose": {
       "type": "number",
       "required": true
     },
-    "name": {
+    "periodType_id": {
+      "type": "number",
+      "required": true
+    },
+    "descrption": {
       "type": "string",
+      "required": true
+    },
+    "petTypes_id": {
+      "type": "number",
       "required": true
     }
   },

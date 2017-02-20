@@ -63,5 +63,21 @@
   "petTypes": {
     "dataSource": "db",
     "public": true
+  },
+  "Food": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Shower": {
+    "dataSource": "db",
+    "public": true
+  },
+  "PeriodType": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Vaccine": {
+    "dataSource": "db",
+    "public": true
   }
 }
