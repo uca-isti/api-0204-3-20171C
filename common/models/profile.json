@@ -1,17 +1,13 @@
 {
-  "name": "user",
-  "plural": "users",
+  "name": "Profile",
+  "plural": "profiles",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "lastname": {
+    "email": {
       "type": "string",
       "required": true
     },
@@ -19,7 +15,11 @@
       "type": "string",
       "required": true
     },
-    "email": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
       "type": "string",
       "required": true
     }
