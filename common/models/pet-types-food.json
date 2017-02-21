@@ -1,0 +1,23 @@
+{
+  "name": "PetTypes_Food",
+  "plural": "PetTypes_Foods",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "petTypes_id": {
+      "type": "number",
+      "required": true
+    },
+    "food_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

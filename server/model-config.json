@@ -79,5 +79,25 @@
   "Profile": {
     "dataSource": "db",
     "public": true
+  },
+  "Profile_Pet": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Place_Branch": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Branch_Phone": {
+    "dataSource": "db",
+    "public": true
+  },
+  "PetTypes_Food": {
+    "dataSource": "db",
+    "public": true
+  },
+  "PetTypes_Vaccine": {
+    "dataSource": "db",
+    "public": true
   }
 }

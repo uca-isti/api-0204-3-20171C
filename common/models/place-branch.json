@@ -1,0 +1,23 @@
+{
+  "name": "Place_Branch",
+  "plural": "Place_Branchs",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "place_id": {
+      "type": "number",
+      "required": true
+    },
+    "branch_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

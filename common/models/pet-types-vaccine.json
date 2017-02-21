@@ -1,0 +1,23 @@
+{
+  "name": "PetTypes_Vaccine",
+  "plural": "PetTypes_Vaccines",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "petTypes_id": {
+      "type": "number",
+      "required": true
+    },
+    "vaccines_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

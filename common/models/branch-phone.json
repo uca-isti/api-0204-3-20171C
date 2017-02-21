@@ -1,0 +1,23 @@
+{
+  "name": "Branch_Phone",
+  "plural": "Branch_Phones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "branch_id": {
+      "type": "number",
+      "required": true
+    },
+    "phone_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

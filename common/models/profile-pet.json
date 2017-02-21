@@ -1,0 +1,23 @@
+{
+  "name": "Profile_Pet",
+  "plural": "Profile_Pets",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "profile_id": {
+      "type": "number",
+      "required": true
+    },
+    "pet_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
