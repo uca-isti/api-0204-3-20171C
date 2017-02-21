@@ -1,5 +1,5 @@
 {
-  "name": "PetTypes_Food",
+  "name": "PetTypesFoods",
   "plural": "PetTypes_Foods",
   "base": "PersistedModel",
   "idInjection": true,

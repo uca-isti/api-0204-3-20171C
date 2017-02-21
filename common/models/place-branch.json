@@ -1,5 +1,5 @@
 {
-  "name": "Place_Branch",
+  "name": "PlaceBranchs",
   "plural": "Place_Branchs",
   "base": "PersistedModel",
   "idInjection": true,

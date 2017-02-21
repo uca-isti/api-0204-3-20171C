@@ -1,5 +1,5 @@
 {
-  "name": "PetTypes_Vaccine",
+  "name": "PetTypesVaccines",
   "plural": "PetTypes_Vaccines",
   "base": "PersistedModel",
   "idInjection": true,
