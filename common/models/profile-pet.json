@@ -1,6 +1,6 @@
 {
-  "name": "Profile_Pet",
-  "plural": "Profile_Pets",
+  "name": "ProfilePets",
+  "plural": "ProfilePets",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -17,7 +17,19 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "profiles": {
+      "type": "hasOne",
+      "model": "Profile",
+      "foreignKey": "profile_id"
+    },
+    "pets": {
+      "type": "hasMany",
+      "model": "Pet",
+      "foreignKey": "pet_id",
+      "through": "Pet"
+    }
+  },
   "acls": [],
   "methods": {}
 }
