@@ -56,7 +56,7 @@
     "dataSource": "db",
     "public": true
   },
-  "petTypes": {
+  "PetTypes": {
     "dataSource": "db",
     "public": true
   },
@@ -80,7 +80,7 @@
     "dataSource": "db",
     "public": true
   },
-  "Profile_Pet": {
+  "ProfilePets": {
     "dataSource": "db",
     "public": true
   },
