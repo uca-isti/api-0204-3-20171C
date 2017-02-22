@@ -84,19 +84,19 @@
     "dataSource": "db",
     "public": true
   },
-  "Place_Branch": {
+  "PlaceBranchs": {
     "dataSource": "db",
     "public": true
   },
-  "Branch_Phone": {
+  "BranchPhones": {
     "dataSource": "db",
     "public": true
   },
-  "PetTypes_Food": {
+  "PetTypesFoods": {
     "dataSource": "db",
     "public": true
   },
-  "PetTypes_Vaccine": {
+  "PetTypesVaccines": {
     "dataSource": "db",
     "public": true
   }
