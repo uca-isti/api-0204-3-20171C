@@ -17,7 +17,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "placeType": {
+      "type": "belongsTo",
+      "model": "PlaceType",
+      "foreignKey": ""
+    },
+    "placeBranchs": {
+      "type": "belongsTo",
+      "model": "PlaceBranchs",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

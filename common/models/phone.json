@@ -21,7 +21,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "branchPhones": {
+      "type": "belongsTo",
+      "model": "BranchPhones",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -29,7 +29,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "petTypesVaccines": {
+      "type": "belongsTo",
+      "model": "PetTypesVaccines",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

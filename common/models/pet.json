@@ -37,7 +37,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "profilePets": {
+      "type": "belongsTo",
+      "model": "ProfilePets",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

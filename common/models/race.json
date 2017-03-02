@@ -21,7 +21,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "pet": {
+      "type": "belongsTo",
+      "model": "Pet",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

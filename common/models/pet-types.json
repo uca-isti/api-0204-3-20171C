@@ -13,7 +13,28 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "race": {
+      "type": "belongsTo",
+      "model": "Race",
+      "foreignKey": ""
+    },
+    "petTypesFoods": {
+      "type": "belongsTo",
+      "model": "PetTypesFoods",
+      "foreignKey": ""
+    },
+    "petTypesVaccines": {
+      "type": "belongsTo",
+      "model": "PetTypesVaccines",
+      "foreignKey": ""
+    },
+    "shower": {
+      "type": "belongsTo",
+      "model": "Shower",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

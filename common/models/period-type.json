@@ -13,7 +13,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "vaccine": {
+      "type": "belongsTo",
+      "model": "Vaccine",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
